@@ -3,13 +3,41 @@
     margin: 0;
 }
 #top-header {
-    background: rgb(26, 221, 255);
+    background: #9cd6f4;
     height: 150px;
     display: flex; 
-    align-items: center; 
-    padding: 0px 40px 0px 40px;
+    align-items: center;
+    padding: 0px 124px 0px 124px; 
   }
   #logo-sizing
   {
     width: 180px;
+  }
+  #footer-style {
+    background-color: #313a6b;
+  }
+  footer h5 {
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .scaling-content{
+    width: 500px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
